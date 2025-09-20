@@ -1,0 +1,12 @@
+1. create gcp vm
+2. install gcp cli on local machine
+3. run gcloud init and choose correct project configurations
+4. install remote-ssh extension in Vscode
+5. in Vscode code terminal run gcloud compute config-ssh
+	to remove an instance config use gcloud compute config-ssh --remove
+6. under the remote--ssh extension, click refresh
+7. connect to vm instance
+8. install docker 
+	https://docs.docker.com/engine/install/debian/#install-using-the-repository
+9. grant current user to run docker(otherwise instead of docker run we need to use sudo docker run)
+	
