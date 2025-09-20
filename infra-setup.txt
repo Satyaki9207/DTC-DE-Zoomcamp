@@ -13,7 +13,7 @@
 	9.2 newgrp docker
 	9.3 docker run hello-world
 10. After defining docker file, build it using [docker build -t python-app .]
-11. To run the created image use docker run -it python-app
+11. To run the created image use docker run -it test:pandas
 12. To exit docker container from bash use exit
 13. To exit python environment within docker use crtl+D
 

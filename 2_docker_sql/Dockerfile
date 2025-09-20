@@ -3,5 +3,7 @@ FROM python:3.12
 RUN apt-get install wget
 RUN pip install pandas sqlalchemy psycopg2
 WORKDIR /app
-ENTRYPOINT [ "bash"]
+COPY data-processing.py data-processing.py
+
+ENTRYPOINT [ "python", "data-processing.py"]
 
