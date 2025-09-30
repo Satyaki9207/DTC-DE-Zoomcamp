@@ -1,0 +1,5 @@
+# create virtual environment
+python3 -m venv python_env
+
+# activate virtual environment
+source /home/stone/mycode/python_env/bin/activate

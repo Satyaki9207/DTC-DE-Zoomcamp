@@ -1,0 +1,7 @@
+1. Make sure pgcli is installed
+    pgcli cli can be installed with 
+        pip install pgcli
+        pip install psycopg_binary
+
+2. connect pgcli to postgres running on docker
+    pgcli -h localhost -p 5432 -u root -d ny_taxi
